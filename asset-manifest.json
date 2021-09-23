@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.5e3a6dc5.chunk.css",
-    "main.js": "/react-gh-pages/static/js/main.91e5d050.chunk.js",
-    "main.js.map": "/react-gh-pages/static/js/main.91e5d050.chunk.js.map",
-    "runtime-main.js": "/react-gh-pages/static/js/runtime-main.8cc7cf23.js",
-    "runtime-main.js.map": "/react-gh-pages/static/js/runtime-main.8cc7cf23.js.map",
-    "static/js/2.7da0dea2.chunk.js": "/react-gh-pages/static/js/2.7da0dea2.chunk.js",
-    "static/js/2.7da0dea2.chunk.js.map": "/react-gh-pages/static/js/2.7da0dea2.chunk.js.map",
-    "static/js/3.03e79514.chunk.js": "/react-gh-pages/static/js/3.03e79514.chunk.js",
-    "static/js/3.03e79514.chunk.js.map": "/react-gh-pages/static/js/3.03e79514.chunk.js.map",
-    "index.html": "/react-gh-pages/index.html",
-    "static/css/main.5e3a6dc5.chunk.css.map": "/react-gh-pages/static/css/main.5e3a6dc5.chunk.css.map",
-    "static/js/2.7da0dea2.chunk.js.LICENSE.txt": "/react-gh-pages/static/js/2.7da0dea2.chunk.js.LICENSE.txt"
+    "main.css": "/to-do-app/static/css/main.5e3a6dc5.chunk.css",
+    "main.js": "/to-do-app/static/js/main.91e5d050.chunk.js",
+    "main.js.map": "/to-do-app/static/js/main.91e5d050.chunk.js.map",
+    "runtime-main.js": "/to-do-app/static/js/runtime-main.5bfbde3d.js",
+    "runtime-main.js.map": "/to-do-app/static/js/runtime-main.5bfbde3d.js.map",
+    "static/js/2.7da0dea2.chunk.js": "/to-do-app/static/js/2.7da0dea2.chunk.js",
+    "static/js/2.7da0dea2.chunk.js.map": "/to-do-app/static/js/2.7da0dea2.chunk.js.map",
+    "static/js/3.03e79514.chunk.js": "/to-do-app/static/js/3.03e79514.chunk.js",
+    "static/js/3.03e79514.chunk.js.map": "/to-do-app/static/js/3.03e79514.chunk.js.map",
+    "index.html": "/to-do-app/index.html",
+    "static/css/main.5e3a6dc5.chunk.css.map": "/to-do-app/static/css/main.5e3a6dc5.chunk.css.map",
+    "static/js/2.7da0dea2.chunk.js.LICENSE.txt": "/to-do-app/static/js/2.7da0dea2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8cc7cf23.js",
+    "static/js/runtime-main.5bfbde3d.js",
     "static/js/2.7da0dea2.chunk.js",
     "static/css/main.5e3a6dc5.chunk.css",
     "static/js/main.91e5d050.chunk.js"
