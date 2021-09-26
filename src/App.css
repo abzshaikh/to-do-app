@@ -66,7 +66,8 @@ form button:hover {
 }
 
 .trash-btn,
-.complete-btn {
+.complete-btn,
+.edit-btn {
   background: #ff6f47;
   color: white;
   border: none;
@@ -77,12 +78,16 @@ form button:hover {
 .complete-btn {
   background: rgb(11, 212, 162);
 }
+.edit-btn {
+  background: #659ff6;
+}
 .todo-item {
   padding: 0rem 0.5rem;
 }
 
 .fa-trash,
-.fa-check {
+.fa-check,
+.fa-edit {
   pointer-events: none;
 }
 
@@ -137,3 +142,39 @@ select {
   transform: scale(1.5);
 }
 */
+
+@media only screen and (max-width: 540px) {
+  form {
+    padding: 1rem;
+  }
+
+  form input,
+  form button {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+
+  .select {
+    margin: 1rem;
+  }
+
+  .filter-todo {
+    padding: 0.5rem;
+  }
+
+  .select::after {
+    padding: 0.5rem;
+  }
+
+  .todo {
+    margin: 0.5rem;
+    font-size: 1rem;
+  }
+
+  .trash-btn,
+  .complete-btn,
+  .edit-btn {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+}

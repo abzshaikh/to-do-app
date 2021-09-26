@@ -8,6 +8,8 @@ function App() {
   const [ todos, setTodos ] = useState([]);
   const [ status, setStatus ] = useState("all");
   const [ filteredTodos, setFilteredTodos ] = useState([]);
+  const [ toggleSubmit, setToggle ] = useState(true);
+  const [ isEdit, seIsEdit ] = useState(null);
 
   useEffect(() => {
     getLocalTodos();
@@ -50,8 +52,8 @@ function App() {
   return (
     <div className="App">
       <header>Arbaz To Do list </header>
-      <Form todos={todos} setTodos={setTodos} inputText={inputText} setInputText={setInputText} setStatus={setStatus}  />
-      <ToDoList setTodos={setTodos} todos={todos} filteredTodos={filteredTodos} />
+      <Form todos={todos} setTodos={setTodos} inputText={inputText} setInputText={setInputText} setStatus={setStatus}  toggleSubmit={toggleSubmit} setToggle={setToggle} isEdit={isEdit} />
+      <ToDoList setTodos={setTodos} todos={todos} filteredTodos={filteredTodos} setToggle={setToggle} setInputText={setInputText} seIsEdit={seIsEdit} />
     </div>
 
   );
